@@ -1,0 +1,47 @@
+.date-picker-form {
+    background-color: transparent; /* Remove a cor de fundo */
+    border: none; /* Remove bordas */
+    padding: 10px; /* Adiciona um pouco de espaçamento */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o campo e o botão */
+  }
+  
+  .date-picker-form .form-group {
+    margin-bottom: 0; /* Remove o espaço abaixo da etiqueta */
+    display: flex;
+    align-items: center; /* Alinha verticalmente o campo e a etiqueta */
+  }
+  
+  .date-picker-form .form-label {
+    margin-bottom: 0; /* Remove o espaço abaixo da etiqueta */
+    color: var(--text-color);
+    font-size: var(--p-font-size);
+    margin-right: 10px; /* Espaço entre a etiqueta e o campo de data */
+  }
+  
+  .date-picker-form .form-control {
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-size: var(--p-font-size);
+    padding: 5px;
+    width: 150px; /* Ajusta a largura da barra */
+  }
+  
+  .date-picker-form .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: none; /* Remove a sombra do foco para um estilo mais limpo */
+  }
+  
+  .date-picker-form .btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    font-size: var(--p-font-size);
+    padding: 5px 10px;
+  }
+  
+  .date-picker-form .btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  

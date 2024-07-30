@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #FF5656;
+  --secondary-color: #6A7EFC;
+  --terceary-color: #EDF2F6;
+  --background-color: #EDF2F6;
+  --text-color: #494953;
+  --font-primary: Arial, sans-serif;
+  --font-secondary: Georgia, serif;
+
+  --h1-font-size: 2.5rem; /* 40px */
+  --h2-font-size: 2rem;   /* 32px */
+  --h3-font-size: 1.75rem; /* 28px */
+  --h4-font-size: 1.5rem;  /* 24px */
+  --h5-font-size: 1.25rem; /* 20px */
+  --h6-font-size: 1rem;    /* 16px */
+
+  --p-font-size: 1rem;     /* 16px */
+  --small-font-size: 0.875rem; /* 14px */
+  --list-font-size: 1rem;  /* 16px */
+
+  --link-color: #6A7EFC;
+  --link-hover-color: #FF5656;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-family: var(--font-secondary);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+p {
+  font-size: var(--p-font-size);
+  line-height: 1.6; /* Ajuste a altura da linha para melhor legibilidade */
+}
+
+small {
+  font-size: var(--small-font-size);
+}
+
+ul, ol {
+  font-size: var(--list-font-size);
+  margin-left: 1.5rem; /* Adiciona um recuo para listas */
+}
+
+li {
+  margin-bottom: 0.5rem; /* Adiciona espaço entre os itens da lista */
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
