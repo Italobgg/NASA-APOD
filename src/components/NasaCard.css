@@ -1,13 +1,8 @@
-/* NasaCard.css */
-.nasa-card {
-  background-color: var(--background-color);
-  border: none;
-}
-
 .nasa-card-img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  max-height: 800px; /* Define a altura máxima para a imagem */
 }
 
 .nasa-card-row {
