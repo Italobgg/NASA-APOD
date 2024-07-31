@@ -1,7 +1,33 @@
+/* NasaCard.css */
+.nasa-card {
+  background-color: var(--background-color);
+  border: none;
+}
+
 .nasa-card-img {
   width: 100%;
-  max-height: 550px;
+  height: auto;
   object-fit: cover;
+}
+
+.nasa-card-row {
+  margin: 0;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 56.25% 0 0 0; /* 16:9 aspect ratio */
+}
+
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .card-footer {
