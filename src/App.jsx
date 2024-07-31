@@ -1,6 +1,7 @@
 import React from 'react';
-import NasaApod from './components/NasaApod.jsx';
 import AppNavbar from './components/Navbar.jsx';
+import NasaApod from './components/NasaApod.jsx';
+import APODInfo from './components/APODInfo.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <AppNavbar />
       <main className='container px-3 py-4'>
+        <APODInfo />
         <NasaApod />
       </main>
       <Footer />

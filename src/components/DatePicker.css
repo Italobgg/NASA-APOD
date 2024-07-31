@@ -1,47 +1,49 @@
-.date-picker-form {
-    background-color: transparent; /* Remove a cor de fundo */
-    border: none; /* Remove bordas */
-    padding: 10px; /* Adiciona um pouco de espaçamento */
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espaço entre o campo e o botão */
-  }
-  
-  .date-picker-form .form-group {
-    margin-bottom: 0; /* Remove o espaço abaixo da etiqueta */
-    display: flex;
-    align-items: center; /* Alinha verticalmente o campo e a etiqueta */
-  }
-  
-  .date-picker-form .form-label {
-    margin-bottom: 0; /* Remove o espaço abaixo da etiqueta */
-    color: var(--text-color);
-    font-size: var(--p-font-size);
-    margin-right: 10px; /* Espaço entre a etiqueta e o campo de data */
-  }
-  
-  .date-picker-form .form-control {
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    font-size: var(--p-font-size);
-    padding: 5px;
-    width: 150px; /* Ajusta a largura da barra */
-  }
-  
-  .date-picker-form .form-control:focus {
-    border-color: var(--primary-color);
-    box-shadow: none; /* Remove a sombra do foco para um estilo mais limpo */
-  }
-  
-  .date-picker-form .btn-primary {
-    background-color: var(--primary-color);
-    border: none;
-    border-radius: 4px;
-    font-size: var(--p-font-size);
-    padding: 5px 10px;
-  }
-  
-  .date-picker-form .btn-primary:hover {
-    background-color: darken(var(--primary-color), 10%);
-  }
-  
+/* DatePicker.css */
+.date-picker-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-picker-container input[type="date"] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: #fff;
+  max-width: 200px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.date-picker-container input[type="date"]:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  max-width: 120px;
+}
+
+.custom-button:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
