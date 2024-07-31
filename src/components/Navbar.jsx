@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import "./Navbar.css"; // Certifique-se de que o caminho está correto
+import "./Navbar.css";
 
 const AppNavbar = () => {
   return (
@@ -12,7 +12,6 @@ const AppNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-nav">
-            <Nav.Link href="#">Inicio</Nav.Link>
             <Nav.Link
               href="https://github.com/Italobgg/NASA-APOD"
               target="_blank"

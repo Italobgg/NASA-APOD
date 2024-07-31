@@ -1,0 +1,17 @@
+/* APODInfo.css */
+.apod-info-container {
+    padding: 2rem;
+    background-color: var(--background-color);
+  }
+  
+  .apod-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+  }
+  
+  .apod-description {
+    font-size: var(--p-font-size);
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+  

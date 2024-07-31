@@ -26,7 +26,7 @@ const DatePicker = ({ onSearch }) => {
           />
         </Form.Group>
         <button type="submit" className="custom-button">
-          Search
+          Data
         </button>
       </Form>
     </div>
